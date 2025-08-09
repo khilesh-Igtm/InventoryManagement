@@ -1,0 +1,4 @@
+// Client side file
+1. tailwind.config.ts file for the functions
+2. lucide react module and layout file
+3. redux.tsx file
