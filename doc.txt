@@ -7,4 +7,9 @@
 -> uncommenting moduleResolution from node10 to nodenext
 -> uncommented the resolveJsonModule: true
 -> uncommented outDir: "./" to "./dist"
+
+//Backend Packages
+-> rimraf , concurrently, helmet, morgan
+-> devDependencies using -D for typescript use @types/package-name
+-> scripts commands also
  
