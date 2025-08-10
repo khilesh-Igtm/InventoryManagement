@@ -2,3 +2,9 @@
 1. tailwind.config.ts file for the functions
 2. lucide react module and layout file
 3. redux.tsx file
+4. fixed the issue related to fs and path module in seed.ts by modifying the tsconfig.json by  :
+-> uncommenting module from commonjs to nodenext
+-> uncommenting moduleResolution from node10 to nodenext
+-> uncommented the resolveJsonModule: true
+-> uncommented outDir: "./" to "./dist"
+ 
