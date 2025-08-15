@@ -21,3 +21,6 @@ from CardPurchaseSummary , understand this line ->  {lastDataPoint.changePercent
  
 
 .reduce method in js inside CardExpenseSummary.
+-> Inventory/page.tsx for material UI design work to form DataGrid
+
+-> FormEvent<HTMLFormElement> inside our Products/CreateProductModal
