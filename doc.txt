@@ -12,4 +12,12 @@
 -> rimraf , concurrently, helmet, morgan
 -> devDependencies using -D for typescript use @types/package-name
 -> scripts commands also
+
+// frontend CardPurchaseSummary files
+-> why we called const{data: dashboardMetrics, isLoading} = useGetDashboardMerticsQuery(); 
+in each child component why we don't pass in parent in Dashboard component and pass it as a prop.
+
+from CardPurchaseSummary , understand this line ->  {lastDataPoint.changePercentage! >= 0 ? . ! >= means.
  
+
+.reduce method in js inside CardExpenseSummary.

@@ -7,7 +7,7 @@ import morgan from "morgan"
 
 // Route imports
 import dashboardRoutes from "./routes/dashboardRoutes";
-
+import productRoutes from "./routes/productRoutes";
 
 // Configurations
 dotenv.config()
@@ -22,6 +22,7 @@ app.use(cors())
 
 // Routes
 app.use("/dashboard",dashboardRoutes)
+app.use("/products", productRoutes)
 
 
 // Server
