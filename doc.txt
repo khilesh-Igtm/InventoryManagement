@@ -24,3 +24,22 @@ from CardPurchaseSummary , understand this line ->  {lastDataPoint.changePercent
 -> Inventory/page.tsx for material UI design work to form DataGrid
 
 -> FormEvent<HTMLFormElement> inside our Products/CreateProductModal
+
+-> backend -> expenseController
+-> frontend -> expense/page.tsx
+
+difference in this -> type AggregatedDataItem = {
+  name: string;
+  color?: string;
+  amount: number;
+};
+
+
+and interface SidebarLinkProps {
+  href: string;
+  icon: LucideIcon;
+  label: string;
+  isCollapsed: boolean;
+}
+
+are these structure the same 
