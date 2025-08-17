@@ -49,3 +49,5 @@ AWS Tutorial :
 -> Virtual Private cloud (VPC) , subnets, INternet gateway, routes table
 network access control list(nacl), ec2 , create security group concept ,
 pm2 ,
+
+-> ecosystem.config.js file 
