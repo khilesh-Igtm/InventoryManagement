@@ -28,7 +28,9 @@ from CardPurchaseSummary , understand this line ->  {lastDataPoint.changePercent
 -> backend -> expenseController
 -> frontend -> expense/page.tsx
 
-difference in this -> type AggregatedDataItem = {
+difference in this 
+are these structure the same 
+-> type AggregatedDataItem = {
   name: string;
   color?: string;
   amount: number;
@@ -42,4 +44,8 @@ and interface SidebarLinkProps {
   isCollapsed: boolean;
 }
 
-are these structure the same 
+AWS Tutorial :
+-> AWS cloud
+-> Virtual Private cloud (VPC) , subnets, INternet gateway, routes table
+network access control list(nacl), ec2 , create security group concept ,
+pm2 ,
